@@ -504,7 +504,20 @@ def derive_insights(s, ctx):
 
 
 HTML_TMPL = """<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><title>Agent Wrapped · Claude Code</title>
+<html lang="en"><head><meta charset="utf-8">
+<title>Agent Wrapped · Claude Code — your local, private AI-coding-agent report</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Local, private Claude Code Wrapped. Your personal AI-coding-agent report — models, hours, prompt style, plan-mode, cache hit rate, API-list value. Zero uploads, zero dependencies, one Python file.">
+<meta name="keywords" content="claude code wrapped, claude code analytics, claude code usage, claude code cost tracker, ai coding agent, anthropic, paxel alternative, local llm analytics, offline coding wrapped">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Agent Wrapped · Claude Code">
+<meta property="og:description" content="Your AI coding agent, wrapped — locally. Zero data uploaded. Zero dependencies. One Python file.">
+<meta property="og:site_name" content="agent-wrapped">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Agent Wrapped · Claude Code">
+<meta name="twitter:description" content="Your AI coding agent, wrapped — locally. Zero data uploaded.">
+<meta name="generator" content="agent-wrapped (github.com/mallikharjun073/agent-wrapped)">
 <style>
 :root{--bg:#0b0b0f;--card:#14141b;--card2:#1b1b25;--fg:#f4f4f7;--mut:#8a8a95;--accent:#ff4d4f;--accent2:#ffb84d;--line:#26262f}
 *{box-sizing:border-box;margin:0}
