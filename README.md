@@ -60,27 +60,17 @@ no Docker, no account, no sign-in, no upload.
 
 ## Screenshots
 
-> Screenshots coming soon. Run `agent-wrapped --html` and see for yourself
-> in the meantime &mdash; the report opens in your browser and looks like a
-> dark-theme dashboard with a hero, a grid of stat cards, and a highlights
-> section. See [`screenshots/README.md`](screenshots/README.md) for how
-> the finished images will look and where they go.
+**Hero + highlights &mdash; sessions, prompts, and rule-based insights (green = strengths, amber = room to improve, blue = suggestions):**
 
-<!-- When PNGs are added to ./screenshots/, uncomment the block below.
+![agent-wrapped HTML report hero showing 111 Claude Code sessions with 2,303 prompts, plus insight cards for high cache hit rate, plans before code, low course-corrections, tracks work with tasks, polite operator, context creep, long-tail sessions, long session id, repeat-prompt candidate, estimated spend, opus-only diet, and doc-dump openers](screenshots/report-hero.png)
 
-**HTML report &mdash; hero + card grid + insights + charts:**
+**Stat cards &mdash; models, timing, style, cost, and cache:**
 
-![agent-wrapped HTML report showing Claude Code usage stats: sessions, prompts, peak hour, night owl percentage, plan-mode usage, politeness, course-corrections, longest run, peak context, cache hit rate, API-list value, turns per session](screenshots/report-hero.png)
+![agent-wrapped card grid: top model claude-opus-4-7 at 82%, peak hour 18:00, night owl 2%, avg prompt 365.5 words, politeness 4%, course-corrections 1%, plan-mode 37, max parallel agents 1, longest run 681 hours, peak context 82%, cache hit rate 95%, estimated spend $28,883, turns per session 21, first prompt 274 words, slash usage 0%](screenshots/report-cards.png)
 
-**Terminal report &mdash; text-only, ANSI-safe:**
+**Top tools &amp; top phrases &mdash; what you actually reach for and what you type most:**
 
-![agent-wrapped terminal report showing model split, hourly histogram, top tools, and top phrases for Claude Code sessions](screenshots/report-terminal.png)
-
-**Insights section &mdash; green / amber / blue callouts:**
-
-![Highlights and growth-edge callouts: high cache hit rate, context creep, plans before code, repeat-prompt candidate, plan value delivered](screenshots/report-insights.png)
-
--->
+![agent-wrapped top tools and top phrases: Bash 5947, Read 5636, Edit 4868, Grep 3772, TaskUpdate 1317; top three-word phrases including frontend src app 1597 and src app modules 1106, with the footer "Generated locally from ~/.claude/projects/ · no data left your machine"](screenshots/report-tables.png)
 
 
 ---
