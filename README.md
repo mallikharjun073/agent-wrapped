@@ -60,7 +60,13 @@ no Docker, no account, no sign-in, no upload.
 
 ## Screenshots
 
-<!-- Drop PNGs into ./screenshots/ and this section will render on GitHub -->
+> Screenshots coming soon. Run `agent-wrapped --html` and see for yourself
+> in the meantime &mdash; the report opens in your browser and looks like a
+> dark-theme dashboard with a hero, a grid of stat cards, and a highlights
+> section. See [`screenshots/README.md`](screenshots/README.md) for how
+> the finished images will look and where they go.
+
+<!-- When PNGs are added to ./screenshots/, uncomment the block below.
 
 **HTML report &mdash; hero + card grid + insights + charts:**
 
@@ -73,6 +79,9 @@ no Docker, no account, no sign-in, no upload.
 **Insights section &mdash; green / amber / blue callouts:**
 
 ![Highlights and growth-edge callouts: high cache hit rate, context creep, plans before code, repeat-prompt candidate, plan value delivered](screenshots/report-insights.png)
+
+-->
+
 
 ---
 
