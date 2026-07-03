@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Generated reports (users may run from the repo root)
+claude-wrapped-report.html
+report.html
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
